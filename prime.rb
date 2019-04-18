@@ -18,11 +18,11 @@
 def prime?(n)
 
 	# A prime number is a whole number greater than 1 whose only factors are 1 and itself
-	if n == 2
-		return true
-
-	elsif n < 2
+	if n < 2
 		return false
+
+	elsif n == 2
+		return true
 
 	else
 		# take the square root of int, then round up to whole number
@@ -39,3 +39,5 @@ def prime?(n)
 	end
 	false
 end
+
+# if we need to return value in the middle of the method, must add "return" before the statement
