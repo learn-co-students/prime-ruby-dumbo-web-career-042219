@@ -37,5 +37,5 @@ def prime?(n)
 		end
 		return true
 	end
-	return false
+	false
 end
